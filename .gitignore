@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pth
+data/cifar-10/
+generate_project_structure.sh
+generated_project_structure.txt
