@@ -106,30 +106,3 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 ## License
 
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
-```
-
----
-
-### **Key Additions**
-1. **Data and Model Paths Section**:
-   - Added a new section to explain where the **CIFAR-10 dataset** and **ViT model** are located.
-   - Provided instructions for downloading the dataset and training the model.
-
-2. **Clarified Usage**:
-   - Explained how the dataset is automatically downloaded and where the model is saved.
-
----
-
-### **Next Steps**
-1. **Download the CIFAR-10 Dataset**:
-   - If you want to manually download the dataset, place it in the `data/cifar-10/` directory.
-
-2. **Train the Model**:
-   - Run the training script to generate the `models/vit_model.pth` file:
-     ```bash
-     python scripts/train.py
-     ```
-
-3. **Evaluate and Predict**:
-   - Use the trained model for evaluation or prediction as described in the `README.md`.
-
